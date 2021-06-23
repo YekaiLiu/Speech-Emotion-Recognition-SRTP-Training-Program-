@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal"
+	android:background="@drawable/a"
+	>
+	
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		>
+
+		
+
+		
+
+		<EditText
+		    android:id="@+id/editText1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    
+		    android:layout_below="@+id/txt_result"
+		    android:layout_marginTop="94dp"
+		    android:ems="10"
+		    android:inputType="textPersonName"
+		    android:visibility="invisible" >
+
+		   
+		</EditText>
+
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginBottom="67dp"
+		    android:text="点我可以对录音进行情感识别" />
+
+		<EditText
+		    android:id="@+id/txt_result"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginTop="65dp"
+		    android:editable="false"
+		    android:ems="10"
+		    android:gravity="top|left"
+		    android:paddingBottom="40dip"
+		    android:textSize="20sp" 
+		    android:visibility="invisible">
+
+		    <requestFocus />
+		</EditText>
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:text="语音获取界面" />
+
+		<ImageView
+		    android:id="@+id/imageView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:src="@drawable/p" />
+		
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/bt_search"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="点我可以录音"
+			>
+		</Button>
+		
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+disp('请输入用户名:');
+user=input('','s');
+path=['D:\xlj\',user,'\'];
+tempname=['temp',user];
+mch='pbf';
+no=0:length(mch)-1;
+
+[str,ele]=scanfolder(path,mch,no);
+temptrain(str,tempname,path,ele,0);
+out=tempread(user,mch,no);
+plot(out.p(1,:),out.p(2,:),'*',out.b(1,:),out.b(2,:),'o',out.f(1,:),out.f(2,:),'d'out.p(1,:),out.p(2,:),'*'out.p(1,:),out.p(2,:),'*'

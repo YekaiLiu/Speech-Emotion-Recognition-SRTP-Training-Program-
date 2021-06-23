@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:orientation="horizontal">
+        <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"  
+           android:textColor="#000000"
+           android:text="监测对象：语音情感"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" 
+         android:onClick="onClick"
+        
+        />
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:orientation="horizontal">
+        <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"  
+            android:textColor="#000000"
+           android:text="您的情感记录折线图："/>
+       
+   
+    </LinearLayout>
+    <!-- 用于显示折线图的地方，在.java中添加了achartengine中的GraphicalView -->
+    <LinearLayout 
+        
+    android:id="@+id/guangzhexian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10pt"
+    android:orientation="horizontal" >
+
+        
+
+    </LinearLayout>
+</LinearLayout>

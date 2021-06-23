@@ -1,0 +1,35 @@
+for a=1:10
+    for b=1:10
+        for c=1:10
+            for d=1:10
+                for e=1:10
+                    for f=1:10
+                        for g=1:10
+                            for h=1:10
+                                for i=1:10
+                                    for j=1:10
+                                        if (a+c+f+i)==22
+                                            if (a+d+g+j)==22
+                                                if (b+c+d+e)==22
+                                                    if (b+f+h+j)==22
+                                                        if (i+h+g+e)==22
+                                                            if (a-b)*(a-c)*(a-d)*(a-e)*(a-f)*(a-g)*(a-h)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*(a-b)*
+                                                            a,b,c,d,e,f,g,h,i,j
+                                                        end
+                                                    end
+                                                end
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+end
+
+                                    
